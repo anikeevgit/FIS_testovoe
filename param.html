@@ -1,0 +1,102 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesP.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="menu">
+        <p id="osn"><a href="index.html">Основные данные заемщика</a></p>
+        <p id="param"><a>Параметры заявки</a></p>
+      </div>
+      <div class="view">
+        <p id="paramZ">Параметры заявки</p>
+        <div class="paramZ">
+          <div class="vid">
+            <p>Вид продукта</p>
+            <input type="text" id="vid"></input>
+          </div>
+          <div class="cel">
+            <p>Цель кредита</p>
+            <input type="text" id="cel"></input>
+          </div>
+          <div class="sum">
+            <p>Сумма</p>
+            <input type="text" id="sum"></input>
+          </div>
+          <div class="razmer">
+            <p>Размер ставки</p>
+            <input id="razmer" type="text"></input>
+          </div>
+        </div>
+        <p id="dopU">Дополнительные услуги</p>
+        <style>
+          table.iksweb{text-decoration: none;border-collapse:collapse;width:100%;text-align:center;}
+          table.iksweb th{font-weight:500;font-size:14px; color:#ffffff;background-color:#354251;}
+          table.iksweb td{font-size:13px;color:#354251;}
+          table.iksweb td,table.iksweb th{white-space:pre-wrap;padding:10px 5px;line-height:13px;vertical-align: middle;border: 1px solid #354251;}	table.iksweb tr:hover{background-color:#f9fafb}
+          table.iksweb tr:hover td{color:#354251;cursor:pointer;}
+        </style>
+        <table class="iksweb" id="example">
+        <thead>
+        <tr>
+          <th>Вид доп. услуги</th>
+          <th>Стоимость</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>Страхование жизни</td>
+          <td>25000</td>
+          
+        </tr>
+        <tr>
+          <td>Юридическая помощь</td>
+          <td>15000</td>
+        </tr>
+        </tbody>
+        </table>      
+        <div class="kredit">
+          <div class="srok">
+            <p>Срок кредита</p>
+             <select name="Срок кредита" id="srok">
+            <option value="6">6</option>
+            <option value="12">12</option>
+            <option value="18">18</option>
+            <option value="24">24</option>
+            <option value="36">36</option>
+             </select>
+          </div>
+          <div class="sumDop">
+            <p>Сумма кредита с учетом дополнительных услуг</p>
+            <input type="text" id="sumDop"></input>
+          </div>
+        </div>
+        <div>
+          <input type="checkbox" id="scales" name="scales"
+                 required=''>
+          <label for="scales">Согласие на обработку персональных данных</label>
+        </div>
+        <div class="inf">
+        <p>Требования к заемщику</p>
+        <p>- От 18 лет</p>
+        <p>- Наличие российского гражданства</p>
+        <p>- Постоянная регистрация в регионе, где есть отделение банка</p>
+        <p>- Регулярный доход после вычета налогов от 15 000 рублей в месяц</p>
+      </div> 
+          <input type="button" id="cancel" value="Отмена"></input>
+          <a><input type="button" id="next" class="run" value="Далее"></input></a>
+          
+      
+    </div>
+  </div>
+    <script src="app.js"></script>
+    <script>
+          
+          </script>
+      
+  </body>
+</html>

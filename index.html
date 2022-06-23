@@ -1,0 +1,104 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="menu">
+        <p id="osn"><a>Основные данные заемщика</a></p>
+        <p id="param"><a href="param.html">Параметры заявки</a></p>
+      </div>
+      <div class="view">
+        <p id="head">Персональные данные</p>
+        <form action="">
+          <div class="fio">
+            <div class="secName">
+              <p>Фамилия</p>
+              <input type="text" id="secName"></input>
+            </div>
+          <div class="firstName">
+            <p>Имя</p>
+            <input type="text" id="firstName"></input>
+          </div>
+            <div class="otcestvo">
+              <p id="fio">Отчество</p>
+            <input type="text" id="otcestvo"></input>
+            </div>
+            <div class="phone">
+              <p>Мобильный телефон</p>
+              <input type="text" id="phone"></input>
+            </div>
+          <div class="otherPhone">
+            <p id="fio">Доп. мобильный телефон</p>
+            <input type="text" id="otherPhone"></input>
+          </div>
+            <div class="mail">
+              <p id="fio">Электронная почта</p>
+            <input type="text" id="mail"></input>
+            </div>
+          </div>
+          <p id="pass">Паспортные данные гражданина РФ</p>
+        <div class="pasDan">
+            <div class="seria">
+              <p>Серия</p>
+              <input type="text" id="seria"></input>
+            </div>
+            <div class="nomer">
+              <p>Номер</p>
+              <input type="text" id="nomer"></input>
+            </div>
+            <div class="dataV">
+              <p>Дата выдачи</p>
+              <input type="date" id="calendar"></input>
+            </div>
+            <div class="codPod">
+              <p>Код подразделения</p>
+              <input type="text" id="codPod"></input>
+            </div>
+        </div>
+        <div class="rgnReg">
+          <p>Регион регистрации</p>
+          <input type="text" id="region"></input>
+        </div>
+        <p id="svedRab">Сведения о месте работы</p>
+        <div class="svedRab">
+          <div class="reg">
+            <p>Регион работы</p>
+            <input type="text" id="reg"></input>
+          </div>
+          <div class="org">
+            <p>Название организации</p>
+            <input type="text" id="org"></input>
+          </div>
+          <div class="inn">
+            <p>ИНН</p>
+            <input type="text" id="inn"></input>
+          </div>
+          <div class="dolj">
+            <p>Название должности</p>
+            <input type="text" id="dolj"></input>
+          </div>
+          <div class="zp">
+            <p>Размер з/п</p>
+            <input type="text" id="zp"></input>
+          </div>
+          <div class="nachRab">
+            <p>Дата начала работы</p>
+            <input type="date" id="DNRcalendar"></input>
+          </div>
+        </div>
+
+          <input type="button" id="cancel" class="run" value="Отмена"></input>
+          <a href="param.html"><input type="button" id="next"  value="Далее"></input></a>
+          
+        </form>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

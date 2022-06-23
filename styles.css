@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.menu {
+  display: block;
+  width: 30%;
+}
+.menu a {
+  text-decoration: none;
+  list-style: none;
+  color: #000 !important;
+}
+.menu p {
+  min-height: 2.5em;
+  vertical-align: middle;
+  padding: 10px 0px 0px 20px;
+  margin-bottom: 10px;
+  height: 30px;
+  width: 22em;
+  font-size: 17px;
+}
+
+.menu #osn {
+  background-color: lightgrey;
+}
+
+
+.menu p:hover {
+  background-color: lightgrey;
+  color: #ffffff;
+  transition: 0.7s;
+}
+
+.view {
+  margin: 10px 20px 20px;
+}
+#head {
+  font-size: 20px;
+}
+#pass {
+  font-size: 20px;
+}
+#svedRab {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.fio > div {
+  float: left;
+  width: 25.3%;
+  margin-right: 70px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.fio input {
+  height: 25px;
+  width: 250px;
+}
+.pasDan input {
+  height: 25px;
+  width: 400px;
+}
+
+.svedRab input {
+  height: 25px;
+  width: 400px;
+}
+
+#calendar {
+  width: 150px;
+}
+#region {
+  width: 910px;
+  height: 25px;
+}
+.pasDan > div {
+  float: left;
+  width: 43%;
+  margin-right: 70px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.svedRab > div {
+  float: left;
+  width: 42.3%;
+  margin-right: 70px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#cancel {
+  height: 30px;
+  width: 80px;
+  float: left;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+}
+
+#next {
+  height: 30px;
+  width: 80px;
+  float: right;
+  background-color: lightskyblue;
+  color: white;
+  border-radius: 10px;
+}
